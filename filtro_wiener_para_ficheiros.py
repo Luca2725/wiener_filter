@@ -125,4 +125,4 @@ esTSNR=news;
 output = AudioSegment(esTSNR.astype(ns.dtype).tobytes(), frame_rate = fs, sample_width = ns.dtype.itemsize, channels = 1)
 
 #output.export('teste1.mp3', format = "mp3", bitrate = "128k")
-output.export('audio_sem_ruido_VS.wav', format = "wav", bitrate = "128k")
+output.export('audio_sem_ruido.wav', format = "wav", bitrate = "128k")
